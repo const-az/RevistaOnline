@@ -50,6 +50,20 @@ h1, h2, h4, p {
   border-radius: 30px;
 }
 
+@media (max-width: 767px) {
+  #nosotros {
+    display: none;
+  }
+
+  .menu__nav .input-menu {
+    width: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .menu__nav .input-menu {
+    width: 120px;
+  }
+}
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -377,12 +391,12 @@ h1, h2, h4, p {
 }
 
 @media (max-width: 767px) {
-  #nosotros, .contenido__listado-izquierdo {
+  .contenido__listado-izquierdo {
     display: none;
   }
 
   .cuerpo__img {
-    height: 250px;
+    height: 150px;
   }
 
   .noticia__cuerpo p {

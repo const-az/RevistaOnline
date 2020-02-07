@@ -31,8 +31,29 @@
 
             .input-menu {
               border-radius: 30px;
+
             }
           }
        }
     }
+}
+
+@media (max-width: 767px) {
+  #nosotros{
+    display: none;
+  }
+
+.menu__nav {
+  .input-menu{
+    width: 60px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+.menu__nav {
+  .input-menu{
+    width: 120px;
+    }
+  }
 }

@@ -61,12 +61,12 @@
 }
 
 @media (max-width: 767px) {
-  #nosotros, .contenido__listado-izquierdo{
+  .contenido__listado-izquierdo{
     display: none;
   }
 
   .cuerpo__img{
-    height: 250px;
+    height: 150px;
   }
 
   .noticia__cuerpo p{
