@@ -1,0 +1,31 @@
+.newsletter {
+    width: 100%;
+    background-color: #f2f4f5;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 10px 0;
+
+    h2 {
+       font-size: 24px
+   }
+
+   &__group {
+     margin: 20px 0;
+
+     button {
+       background-color: coral;
+       color: white;
+    }
+  }
+}
+
+
+.newsletter__group input,
+.newsletter__group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}

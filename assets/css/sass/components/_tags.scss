@@ -1,0 +1,29 @@
+.listado-izquierdo{
+
+  &__tags {
+      border-bottom: 1px solid gray;
+
+      ul {
+          padding: 0;
+          list-style: none;
+          text-align: center;
+          margin-bottom: 10px;
+
+          li {
+            padding: 4px;
+            background-color: steelblue;
+            margin-right: 1px;
+            color: white;
+            display: inline-block;
+            font-size: 12px;
+          }
+        }
+  }
+}
+
+@media (max-width: 990px) {
+  .listado-izquierdo__tags ul li{
+    font-size: 9px;
+    padding: 2px;
+  }
+}

@@ -1,0 +1,38 @@
+.menu {
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: baseline;
+
+    &__logo {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    &__nav {
+        display: inline;
+        text-align: right;
+        margin-left: auto;
+
+        ul{
+          list-style: none;
+
+          li{
+            display: inline-block;
+
+            a{
+              text-decoration: none;
+              text-transform: uppercase;
+              color: steelblue;
+            }
+
+            .input-menu {
+              border-radius: 30px;
+            }
+          }
+       }
+    }
+}
